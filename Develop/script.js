@@ -1,5 +1,5 @@
 // Assignment Code
-var generateBtn = document.querySelector('#generate');
+var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 
@@ -133,5 +133,6 @@ function getRandom(max) {
   return Math.floor(Math.random() * max);
 }
 
+
 // Add event listener to generate button
-generateBtn.addEventListener('click', writePassword);
+generateBtn.addEventListener("click", writePassword);
