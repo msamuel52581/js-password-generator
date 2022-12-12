@@ -7,7 +7,6 @@ JS password generator is an application that enables employees to generate rando
 ## Usage
 To use this password generator you can click on generate password and answer the prompts accordingly.
 
-## Visuals
 ![Screenshot](assets/03-javascript-homework-demo.png)
 
 ## Link
