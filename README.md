@@ -4,7 +4,6 @@ My project will enable employee's with access to sensitive data to randomly gene
 ## Description
 JS password generator is an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code.
 
-
 ## Visuals
 ![Screenshot](assets/03-javascript-homework-demo.png) 
 
