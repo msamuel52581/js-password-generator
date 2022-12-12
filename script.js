@@ -21,24 +21,24 @@ function generatePassword() {
   var password = '';
 
   while (true) {
-    minLength = parseInt(prompt('what is the minimum length of the password?'));
+    minLength = parseInt(prompt('What is the minimum length of the password?'));
     if (minLength >= 8 && minLength <= 128) {
       break;
     } else {
-      alert('length should be atleast 8 and atmost 128');
+      alert('Length should be at least 8 and atmost 128.');
     }
   }
 
   while (true) {
     while (true) {
-      isNumbers = prompt('Should we include number ? Type (Y/N)');
+      isNumbers = prompt('Should we include number? Type (Y/N)');
       if (isNumbers.toLowerCase() == 'y' || isNumbers.toLowerCase() == 'n') {
         if (isNumbers.toLowerCase() == 'y') {
           allCharacters += numbers;
         }
         break;
       } else {
-        alert('Invalid input for numbers. Please try again');
+        alert('Invalid input for numbers. Please try again.');
       }
     }
 
@@ -55,7 +55,7 @@ function generatePassword() {
         }
         break;
       } else {
-        alert('Invalid input for lowercase characters. Please try again');
+        alert('Invalid input for lowercase characters. Please try again.');
       }
     }
 
@@ -72,7 +72,7 @@ function generatePassword() {
         }
         break;
       } else {
-        alert('Invalid input for uppercase characters. Please try again');
+        alert('Invalid input for uppercase characters. Please try again.');
       }
     }
 
@@ -87,7 +87,7 @@ function generatePassword() {
         }
         break;
       } else {
-        alert('Invalid input for symbols. Please try again');
+        alert('Invalid input for symbols. Please try again.');
       }
     }
     if (
@@ -98,7 +98,7 @@ function generatePassword() {
     ) {
       break;
     } else {
-      alert('You need to select at least one type of characters');
+      alert('You need to select at least one type of special character.');
     }
   }
 
